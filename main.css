@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+	margin: 20px;
+	font-family: Lobster Two;
+	background: linear-gradient(270deg, #279075, #332790, #a81b1b);
+	background-size: 600% 600%;
+
+	-webkit-animation: AnimationName 3s ease infinite;
+	-moz-animation: AnimationName 3s ease infinite;
+	-o-animation: AnimationName 3s ease infinite;
+	animation: AnimationName 3s ease infinite;
+}
+
+#nc {
+	font-size: 60px;
+	font-family: Trebuchet MS;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+button {
+	border-style: none;
+	border-color: #ffffff;
+	height: 40px;
+	width: 250px;
+	background-color: #222222;
+	color: #ffffff;
+	transition: 0.2s;
+	font-family: Lobster Two;
+}
+
+button:hover {
+	background-color: transparent;
+}
+
+button:focus {
+	background-color: white;
+	color: #222222;
+}
+
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
