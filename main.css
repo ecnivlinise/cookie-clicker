@@ -36,13 +36,9 @@ button {
 }
 
 button:hover {
-	background-color: transparent;
-	width: 300px;
-}
-
-button:focus {
 	background-color: white;
 	color: #222222;
+	width: 300px;
 }
 
 @-moz-keyframes AnimationName {
